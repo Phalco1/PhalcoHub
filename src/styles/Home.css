@@ -2,7 +2,7 @@
     width: 100%;
     align-items: center;
     font-family: "Arial", sans-serif;
-    color: #000;
+    color: #3e497a;
   }
   
   .about {
@@ -10,17 +10,17 @@
     height: calc(100vh - 100px);
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     text-align: center;
-    background-color: gray;
+    background-color: #3e497a;
     color: #ffe745;
   }
   
   .about h2 {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-size: 80px;
-    color: #000;
+    color: #ffe745;
     height: 50px;
   }
   

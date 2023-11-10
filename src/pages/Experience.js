@@ -2,7 +2,7 @@ import React from "react";
 import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFlagUsa, faComputer, faBriefcase } from "@fortawesome/free-solid-svg-icons"
+import { faFlagUsa, faComputer, faBriefcase, faPaintBrush } from "@fortawesome/free-solid-svg-icons"
 import "../styles/Experience.css"
 
 
@@ -54,6 +54,22 @@ function Experience() {
           <br/>
           <br/>
           Gained experience working with the Stripe API and website integration. 
+          </h3>
+          
+        
+        </VerticalTimelineElement>
+        <VerticalTimelineElement className="vertical-timeline-element--education"
+        date="August 2020 - Present"
+        iconStyle= {{ background: "#ffe745", color: "#f0000" }} 
+        icon={<FontAwesomeIcon icon={ faPaintBrush } />}
+        > 
+          <h3 className="vertical-timeline-element-title">
+          KWURAAT (Remote)
+          <br/>     
+          <br/>     
+         Creating 2-D Designs with Adobe Illustrator, PhotoShop, Express, and Procreate to render eye-pleasing, clean designs using my iPad Pro and Apple Pencil.
+          <br/>
+          <br/>
           </h3>
           
         

@@ -1,8 +1,9 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import { ProjectList } from "../helpers/ProjectList";
-import GitHubIcon from "@material-ui/icons/GitHub";
 import "../styles/ProjectDisplay.css"
+import { faPaintBrush } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function ProjectDisplay() {
   const { id } = useParams();
@@ -14,10 +15,7 @@ function ProjectDisplay() {
         <p>
             <b>Skills:</b> {project.skills}
         </p>
-        <p>
-          <b>link:</b> {project.url}
-        </p>
-        <GitHubIcon />
+        <FontAwesomeIcon icon={ faPaintBrush } />
     </div>
   );
 }
