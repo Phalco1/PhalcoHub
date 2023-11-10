@@ -16,12 +16,24 @@ function Home() {
           <p> 
             A software developer with a passion for Art!
           </p>
-          <FacebookIcon />
-          <InstagramIcon />
-          <YouTubeIcon />
-          <GitHubIcon />
-          <LinkedInIcon />
-          <EmailIcon /> 
+          <a target="_blank" rel='nonreferrer' href='https://www.facebook.com/KWURAAT'>
+            <FacebookIcon />
+          </a>
+          <a target="_blank" rel='nonreferrer' href='https://www.instagram.com/kwuraat/'>
+            <InstagramIcon />
+          </a>
+          <a target="_blank" rel='nonreferrer' href='https://www.youtube.com/@kwuraat/featured'>
+            <YouTubeIcon />    
+          </a>
+          <a target="_blank" rel='nonreferrer' href='https://github.com/Phalco1'>
+            <GitHubIcon />   
+          </a>
+          <a target="_blank" rel="nonreferrer" href='https://www.linkedin.com/in/kwuraat/'>
+            <LinkedInIcon />
+          </a>
+          <a target="_blank" rel='nonreferrer' href='https://my-portfolio-1-delta-eqs94066k-phalco1.vercel.app/contact'>
+            <EmailIcon /> 
+          </a>
         </div>
       </div>
       <div className="skills">
