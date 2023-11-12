@@ -7,7 +7,7 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import EmailIcon from "@material-ui/icons/Email";
 import "../styles/Home.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {faGlobe, faPaintBrush } from "@fortawesome/free-solid-svg-icons";
+import {faBriefcase, faGlobe, faPaintBrush } from "@fortawesome/free-solid-svg-icons";
 import { faTiktok } from '@fortawesome/free-brands-svg-icons'
 
 function Home() {
@@ -24,6 +24,9 @@ function Home() {
           </a>
           <a target="_blank" rel='nonreferrer' href='https://www.instagram.com/kwuraat/'>
             <InstagramIcon />
+          </a>
+          <a target="_blank" rel='nonreferrer' href='https://www.tiktok.com/@kwuraat'>
+            <FontAwesomeIcon icon={ faTiktok } />
           </a>
           <a target="_blank" rel='nonreferrer' href='https://www.youtube.com/@kwuraat/featured'>
             <YouTubeIcon />    
@@ -43,8 +46,8 @@ function Home() {
           <a target="_blank" rel='nonreferrer' href='https://www.fiverr.com/paulgooden627?up_rollout=true'>
             <FontAwesomeIcon icon={ faPaintBrush } /> 
           </a>
-          <a target="_blank" rel='nonreferrer' href='https://www.tiktok.com/@kwuraat'>
-            <FontAwesomeIcon icon={ faTiktok } />
+          <a target="_blank" rel='nonreferrer' href='https://my-portfolio-1-delta.vercel.app'>
+            <FontAwesomeIcon icon={ faBriefcase} />
           </a>
         </div>
       </div>
