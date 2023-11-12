@@ -34,7 +34,7 @@ function Home() {
           <a target="_blank" rel="nonreferrer" href='https://www.linkedin.com/in/kwuraat/'>
             <LinkedInIcon />
           </a>
-          <a target="_blank" rel='nonreferrer' href='https://my-portfolio-1-delta-eqs94066k-phalco1.vercel.app/contact'>
+          <a target="_blank" rel='nonreferrer' href='https://my-portfolio-1-delta.vercel.app/contact'>
             <EmailIcon /> 
           </a>
           <a target="_blank" rel='nonreferrer' href='http://www.kwuraat.com'>
